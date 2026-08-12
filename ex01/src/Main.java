@@ -1,7 +1,9 @@
-void main() {
-    IO.println(String.format("Hello and welcome!"));
+import aaa.AA;
 
-    for (int i = 1; i <= 5; i++) {
-        IO.println("i = " + i);
-    }
+
+void main() {
+    int temp = 10;
+    AA a = new AA();
+    a.doA();
+    a.doB();
 }
